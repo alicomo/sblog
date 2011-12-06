@@ -1,0 +1,25 @@
+Shaduli\BlogBundle\Entity\Post:
+  type: entity
+  table: null
+  fields:
+    id:
+      type: integer
+      id: true
+      generator:
+        strategy: AUTO
+    author:
+      type: string
+      length: '100'
+    title:
+      type: string
+      length: '255'
+    content:
+      type: text
+    excerpt:
+      type: string
+      length: '500'
+    status:
+      type: boolean
+    comments_count:
+      type: integer
+  lifecycleCallbacks: {  }

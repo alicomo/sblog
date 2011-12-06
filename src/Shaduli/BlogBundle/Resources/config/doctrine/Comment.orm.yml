@@ -1,0 +1,24 @@
+Shaduli\BlogBundle\Entity\Comment:
+  type: entity
+  table: null
+  fields:
+    id:
+      type: integer
+      id: true
+      generator:
+        strategy: AUTO
+    post_id:
+      type: integer
+    author:
+      type: string
+      length: '100'
+    author_email:
+      type: string
+      length: '255'
+    author_url:
+      type: string
+      length: 255
+    author_ip:
+      type: string
+      length: 255
+  lifecycleCallbacks: {  }
