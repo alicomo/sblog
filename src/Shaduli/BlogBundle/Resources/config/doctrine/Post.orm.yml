@@ -22,4 +22,14 @@ Shaduli\BlogBundle\Entity\Post:
       type: boolean
     comments_count:
       type: integer
+    created_at:
+      type: datetime
+      gedmo:
+        timestampable:
+          on: create
+    updated_at:
+      type: datetime
+      gedmo:
+        timestampable:
+          on: update
   lifecycleCallbacks: {  }

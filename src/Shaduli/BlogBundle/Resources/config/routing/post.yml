@@ -1,0 +1,30 @@
+post:
+    pattern:  /
+    defaults: { _controller: "BlogBundle:Post:index" }
+
+post_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "BlogBundle:Post:show" }
+
+post_new:
+    pattern:  /new
+    defaults: { _controller: "BlogBundle:Post:new" }
+
+post_create:
+    pattern:  /create
+    defaults: { _controller: "BlogBundle:Post:create" }
+    requirements: { _method: post }
+
+post_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "BlogBundle:Post:edit" }
+
+post_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "BlogBundle:Post:update" }
+    requirements: { _method: post }
+
+post_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "BlogBundle:Post:delete" }
+    requirements: { _method: post }

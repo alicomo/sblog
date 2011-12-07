@@ -1,0 +1,34 @@
+Shaduli\BlogBundle\Entity\Link:
+  type: entity
+  table: null
+  fields:
+    id:
+      type: integer
+      id: true
+      generator:
+        strategy: AUTO
+    url:
+      type: string
+      length: 255
+    name:
+      type: string
+      length: '100'
+    image:
+      type: string
+      length: 255
+    target:
+      type: string
+      length: '25'
+    description:
+      type: string
+      length: '1000'
+    visible:
+      type: boolean
+    owner:
+      type: integer
+    notes:
+      type: text
+    rss:
+      type: string
+      length: 255
+  lifecycleCallbacks: {  }
