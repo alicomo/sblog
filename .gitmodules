@@ -4,3 +4,6 @@
 [submodule "vendor/bundles/Stof/DoctrineExtensionsBundle"]
 	path = vendor/bundles/Stof/DoctrineExtensionsBundle
 	url = git://github.com/stof/StofDoctrineExtensionsBundle.git
+[submodule "vendor/bundles/Admingenerator/GeneratorBundle"]
+	path = vendor/bundles/Admingenerator/GeneratorBundle
+	url = git://github.com/cedriclombardot/AdmingeneratorGeneratorBundle.git
