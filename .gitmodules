@@ -7,3 +7,36 @@
 [submodule "vendor/bundles/Admingenerator/GeneratorBundle"]
 	path = vendor/bundles/Admingenerator/GeneratorBundle
 	url = git://github.com/cedriclombardot/AdmingeneratorGeneratorBundle.git
+[submodule "vendor/bundles/Knp/Bundle/MenuBundle"]
+	path = vendor/bundles/Knp/Bundle/MenuBundle
+	url = https://github.com/KnpLabs/KnpMenuBundle.git
+[submodule "vendor/KnpMenu"]
+	path = vendor/KnpMenu
+	url = https://github.com/KnpLabs/KnpMenu.git
+[submodule "vendor/twig-generator"]
+	path = vendor/twig-generator
+	url = git://github.com/cedriclombardot/TwigGenerator.git
+[submodule "vendor/pagerfanta"]
+	path = vendor/pagerfanta
+	url = git://github.com/whiteoctober/Pagerfanta.git
+[submodule "vendor/bundles/WhiteOctober/PagerfantaBundle"]
+	path = vendor/bundles/WhiteOctober/PagerfantaBundle
+	url = git://github.com/whiteoctober/WhiteOctoberPagerfantaBundle.git
+[submodule "vendor/doctrine-fixtures"]
+	path = vendor/doctrine-fixtures
+	url = git://github.com/doctrine/data-fixtures.git
+[submodule "vendor/bundles/Symfony/Bundle/DoctrineFixturesBundle"]
+	path = vendor/bundles/Symfony/Bundle/DoctrineFixturesBundle
+	url = git://github.com/symfony/DoctrineFixturesBundle.git
+[submodule "vendor/bundles/Symfony/Bundle/DoctrineMongoDBBundle"]
+	path = vendor/bundles/Symfony/Bundle/DoctrineMongoDBBundle
+	url = git://github.com/symfony/DoctrineMongoDBBundle.git
+[submodule "vendor/doctrine-mongodb"]
+	path = vendor/doctrine-mongodb
+	url = git://github.com/doctrine/mongodb.git
+[submodule "vendor/doctrine-mongodb-odm"]
+	path = vendor/doctrine-mongodb-odm
+	url = git://github.com/doctrine/mongodb-odm.git
+[submodule "vendor/bundles/Admingenerator/ActiveAdminThemeBundle"]
+	path = vendor/bundles/Admingenerator/ActiveAdminThemeBundle
+	url = git://github.com/cedriclombardot/AdmingeneratorActiveAdminThemeBundle.git
