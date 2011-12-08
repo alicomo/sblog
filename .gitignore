@@ -4,3 +4,4 @@ app/cache/*
 app/logs/*
 build/
 nbproject/*
+app/config/parameters.ini

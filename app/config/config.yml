@@ -63,4 +63,8 @@ stof_doctrine_extensions:
         default: 
           timestampable: true
           sluggable: true
+knp_menu:
+    twig: true
+
+
           

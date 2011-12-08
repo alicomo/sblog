@@ -5,6 +5,12 @@ use Doctrine\Common\Annotations\AnnotationRegistry;
 
 $loader = new UniversalClassLoader();
 $loader->registerNamespaces(array(
+    'Doctrine\\ODM' => __DIR__.'/../vendor/doctrine-mongodb-odm/lib',
+    'Doctrine\\MongoDB' => __DIR__.'/../vendor/doctrine-mongodb/lib',
+    'Doctrine\\Common\\DataFixtures' => __DIR__.'/../vendor/doctrine-fixtures/lib',
+    'WhiteOctober\\PagerfantaBundle' => __DIR__.'/../vendor/bundles',
+    'Pagerfanta' => __DIR__.'/../vendor/pagerfanta/src',
+    'TwigGenerator' => __DIR__.'/../vendor/twig-generator/src',
     'Symfony'          => array(__DIR__.'/../vendor/symfony/src', __DIR__.'/../vendor/bundles'),
     'Sensio'           => __DIR__.'/../vendor/bundles',
     'JMS'              => __DIR__.'/../vendor/bundles',
@@ -16,7 +22,9 @@ $loader->registerNamespaces(array(
     'Metadata'         => __DIR__.'/../vendor/metadata/src',
     'Stof'             => __DIR__.'/../vendor/bundles',
     'Gedmo'            => __DIR__.'/../vendor/doctrine-extensions/lib',
-    'Admingenerator'    => array(__DIR__.'/../src', __DIR__.'/../vendor/bundles')
+    'Admingenerator'    => array(__DIR__.'/../src', __DIR__.'/../vendor/bundles'),
+    'Knp'       => __DIR__.'/../vendor/bundles',
+    'Knp\Menu'  => __DIR__.'/../vendor/KnpMenu/src',
 ));
 $loader->registerPrefixes(array(
     'Twig_Extensions_' => __DIR__.'/../vendor/twig-extensions/lib',
