@@ -1,3 +1,7 @@
+SimpleAdminBundle:
+    resource: "@SimpleAdminBundle/Resources/config/routing.yml"
+    prefix:   /
+
 AcmeBlogBundle_admin_acme_blog_bundle_test:
     resource: "@AcmeBlogBundle/Controller/Test/"
     type:     admingenerator

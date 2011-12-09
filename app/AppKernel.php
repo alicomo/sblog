@@ -25,6 +25,7 @@ class AppKernel extends Kernel
             //new Symfony\Bundle\DoctrineMongoDBBundle\DoctrineMongoDBBundle(),
             new Admingenerator\ActiveAdminThemeBundle\AdmingeneratorActiveAdminThemeBundle(),
             new Acme\Bundle\BlogBundle\AcmeBlogBundle(),
+            new Simple\AdminBundle\SimpleAdminBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
